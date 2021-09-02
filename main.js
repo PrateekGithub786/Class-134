@@ -20,7 +20,7 @@ function modelLoaded(){
 
 function gotResults(error, results){
     if(error){
-        console.log(error)
+        console.log(error);
     }
     console.log(results);
     object = results;
