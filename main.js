@@ -15,7 +15,6 @@ function setup(){
 function modelLoaded(){
     console.log("Model Loaded");
     status = true;
-    objectDetect.detect(video, gotResults);
 }
 
 function gotResults(error, results){
